@@ -33,9 +33,10 @@ int main()
     }
     
     printf("정렬:\n");
+    printf("%d ", array[0]);
     
-    for (c = 0; c <= n - 1; c++) {
-        printf("%d ", array[c]);
+    for (c = 1; c <= n - 1; c++) {
+        printf("< %d ", array[c]);
     }
     
     return 0;
